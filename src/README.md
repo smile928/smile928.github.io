@@ -9,7 +9,7 @@ heroFullScreen: true
 tagline: 终要有所失，才有所悟吗?
 projects:
   - icon: project
-    name: 项目名称
+    name: 项目名称111111
     desc: 项目详细描述
     link: https://你的项目链接
 
