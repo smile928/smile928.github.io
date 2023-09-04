@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as _,a as c}from"./app-3657046f.js";const o={},s=c("p",null,"这是我的第一个页面，用来测试的!!!!!!",-1),n=[s];function a(r,l){return t(),_("div",null,n)}const f=e(o,[["render",a],["__file","121501.html.vue"]]);export{f as default};
