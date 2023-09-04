@@ -6,8 +6,8 @@ export default defineUserConfig({
   title: "smile",
   description: "开心贩卖板",
   theme: recoTheme({
-    // 自动设置分类
-    autoSetBlogCategories: true,
+    // 自动设置分类，根据文件夹名字和md文件里面的categories同时生效，关闭后只有categories生效
+    // autoSetBlogCategories: true,
     // // 自动将分类和标签添加至头部导航条
     // autoAddCategoryToNavbar: {
     //   location: 1, // 默认 0
@@ -21,7 +21,7 @@ export default defineUserConfig({
     docsRepo: "https://github.com/vuepress-reco/vuepress-theme-reco-next",
     docsBranch: "main",
     docsDir: "example",
-    lastUpdatedText: "",
+    lastUpdatedText: "最后更新时间",
     // series 为原 sidebar
     series: {
       "/docs/theme-reco/": [
@@ -37,7 +37,7 @@ export default defineUserConfig({
     },
     navbar: [
       { text: "主页", link: "/" , icon: "LogoKeybase"},
-      { text: "分类", link: "/categories/category1/2018/1/" , icon: "Categories" },
+      { text: "分类", link: "/categories/category1/1/" , icon: "Categories" },
       { text: "标签", link: "/tags/tag1/1/" , icon: "Tag"},
       {
         text: "文档",
@@ -47,7 +47,7 @@ export default defineUserConfig({
           { text: "vuepress-theme-reco", link: "/blogs/other/guide" },
         ],
       },
-      { text: "留言", link: "/tags/tag1/1/" , icon: "Strawberry"},
+      { text: "留言", link: "/docs/msgBoard" , icon: "Strawberry"},
     ],
     // bulletin: {
     //   body: [
@@ -129,9 +129,9 @@ export default defineUserConfig({
       apiKey: '9d461e7beecb565130d87295e5281cd2',
       indexName: 'smile',
       inputSelector: '### REPLACE ME ####',
-      algoliaOptions: { 'facetFilters': ["lang:$LANG"] },
-      debug: true // Set debug to true if you want to inspect the dropdown
+      algoliaOptions: { 'facetFilters': ["lang:zn"] },
+      // debug: true // Set debug to true if you want to inspect the dropdown
     },
   }),
-  // debug: true,
+  debug: true,
 });

@@ -23,35 +23,21 @@ export const searchIndex = [
   {
     "title": "",
     "headers": [],
-    "path": "/categories/category1/2019/1/",
+    "path": "/categories/category1/1/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "",
     "headers": [],
-    "path": "/categories/other/1/",
+    "path": "/categories/reco/1/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "",
     "headers": [],
-    "path": "/categories/category1/2018/1/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/categories/category2/2017/1/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/categories/category2/2016/1/",
+    "path": "/categories/category2/1/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -65,7 +51,7 @@ export const searchIndex = [
   {
     "title": "",
     "headers": [],
-    "path": "/tags/tag11111/1/",
+    "path": "/tags/tag1/1/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -98,30 +84,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "api",
+    "title": "说点什么",
     "headers": [],
-    "path": "/docs/theme-reco/api.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "theme-reco",
-    "headers": [],
-    "path": "/docs/theme-reco/home.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "plugin",
-    "headers": [],
-    "path": "/docs/theme-reco/plugin.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "theme",
-    "headers": [],
-    "path": "/docs/theme-reco/theme.html",
+    "path": "/docs/msgBoard.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -173,6 +138,34 @@ export const searchIndex = [
       }
     ],
     "path": "/blogs/other/guide.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "api",
+    "headers": [],
+    "path": "/docs/theme-reco/api.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "theme-reco",
+    "headers": [],
+    "path": "/docs/theme-reco/home.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "plugin",
+    "headers": [],
+    "path": "/docs/theme-reco/plugin.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "theme",
+    "headers": [],
+    "path": "/docs/theme-reco/theme.html",
     "pathLocale": "/",
     "extraFields": []
   },
