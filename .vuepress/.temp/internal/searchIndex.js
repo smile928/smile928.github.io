@@ -23,21 +23,35 @@ export const searchIndex = [
   {
     "title": "",
     "headers": [],
-    "path": "/categories/category1/1/",
+    "path": "/categories/category1/2019/1/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "",
     "headers": [],
-    "path": "/categories/reco/1/",
+    "path": "/categories/other/1/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "",
     "headers": [],
-    "path": "/categories/category2/1/",
+    "path": "/categories/category1/2018/1/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/categories/category2/2017/1/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/categories/category2/2016/1/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -51,7 +65,7 @@ export const searchIndex = [
   {
     "title": "",
     "headers": [],
-    "path": "/tags/tag1/1/",
+    "path": "/tags/tag11111/1/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -78,16 +92,36 @@ export const searchIndex = [
   },
   {
     "title": "",
-    "headers": [
-      {
-        "level": 2,
-        "title": "快速开始",
-        "slug": "快速开始",
-        "link": "#快速开始",
-        "children": []
-      }
-    ],
+    "headers": [],
     "path": "/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "api",
+    "headers": [],
+    "path": "/docs/theme-reco/api.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "theme-reco",
+    "headers": [],
+    "path": "/docs/theme-reco/home.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "plugin",
+    "headers": [],
+    "path": "/docs/theme-reco/plugin.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "theme",
+    "headers": [],
+    "path": "/docs/theme-reco/theme.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -139,34 +173,6 @@ export const searchIndex = [
       }
     ],
     "path": "/blogs/other/guide.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "api",
-    "headers": [],
-    "path": "/docs/theme-reco/api.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "theme-reco",
-    "headers": [],
-    "path": "/docs/theme-reco/home.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "plugin",
-    "headers": [],
-    "path": "/docs/theme-reco/plugin.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "theme",
-    "headers": [],
-    "path": "/docs/theme-reco/theme.html",
     "pathLocale": "/",
     "extraFields": []
   },
